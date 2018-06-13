@@ -9,7 +9,7 @@ Create a game of 'Rock Paper Scissors' that runs until one player has three wins
 ```javascript
 var weapons = ["rock", "paper", "scissors"];
 
-var weaponOfChoice = weapons[parseInt(Math.random() * weapons.length) % 3];
+var weaponOfChoice = weapons[Math.floor(Math.random() * weapons.length)];
 ```
 
 * Output each players hand to the console

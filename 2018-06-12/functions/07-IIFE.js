@@ -1,3 +1,3 @@
-(function() {
-   console.log("bar");
-})();
+(function(myText) {
+  console.log("bar", myText);
+})("baz");
