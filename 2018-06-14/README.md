@@ -10,8 +10,8 @@ In a Terminal window:
 2. To get the new subdirectory which contains practice file for tonight: `git pull`
 
 In an Explorer or Finder window, copy the `2018-06-14` subdirectory:
-    * from your local `tts-js-app-dev-2018b` directory
-    * to your working `tts-js-working-copy` directory
+* from your local `tts-js-app-dev-2018b` directory
+* to your working `tts-js-working-copy` directory
 
 ## Review functions
 
