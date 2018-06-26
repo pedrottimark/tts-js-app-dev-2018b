@@ -39,19 +39,21 @@ function playRound(playerA, playerB) {
   }
 }
 
-function playGame(playerA, playerB) {
-  while (playerA.score < 3 && playerB.score < 3) {
+const hasPlayerWon = (player, roundsToWin) => player.score >= roundsToWin;
+
+function playGame(playerA, playerB, roundsToWin) {
+  while (!(hasPlayerWon(playerA, roundsToWin) || hasPlayerWon(playerB, roundsToWin))) {
     const winningPlayer = playRound(playerA, playerB);
     if (winningPlayer) {
       console.log(winningPlayer.name, "won!");
       winningPlayer.score++;
     } else {
-        console.log("Its a tie!")
+      console.log("Its a tie!");
     }
   }
 
   let winner;
-  if (playerA.score === 3) {
+  if (hasPlayerWon(playerA, roundsToWin)) {
     winner = playerA;
   } else {
     winner = playerB;
@@ -59,4 +61,4 @@ function playGame(playerA, playerB) {
   console.log(winner.name, "wins the game!");
 }
 
-console.log(playGame(player1, player2));
+console.log(playGame(player1, player2, 5));

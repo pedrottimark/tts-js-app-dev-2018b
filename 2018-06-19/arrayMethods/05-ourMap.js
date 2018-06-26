@@ -12,8 +12,8 @@ function add5(x) {
   return x + 5;
 }
 
-console.log(map(add5, [1, 2, 3]));
+// console.log(map(add5, [1, 2, 3]));
 
-var mapAdd5 = map.bind(null, add5);
+// var mapAdd5 = map.bind(null, add5);
 
-console.log(mapAdd5([1, 2, 3]));
+// console.log(mapAdd5([1, 2, 3]));
