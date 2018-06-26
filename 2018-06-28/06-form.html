@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'/>
+<title>06-form</title>
+<style>
+label {
+  display: block;
+}
+</style>
+</head>
+<body>
+<form name="produce">
+<fieldset>
+<label><input type="checkbox" name="local"/>locally grown</label>
+<label><input type="checkbox" name="organic"/>organic</label>
+</fieldset>
+<fieldset>
+<label><input type="radio" name="culinaryCategory" value="fruit"/>fruit</label>
+<label><input type="radio" name="culinaryCategory" value="grain"/>grain</label>
+<label><input type="radio" name="culinaryCategory" value="nut"/>nut</label>
+<label><input type="radio" name="culinaryCategory" value="vegetable"/>vegetable</label>
+</fieldset>
+<fieldset>
+<label>PLU code<input type="text" name="code"/></label>
+</fieldset>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+<script src="06-form.js"></script>
+</body>
+</html>

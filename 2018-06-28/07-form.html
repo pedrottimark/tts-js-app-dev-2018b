@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'/>
+<title>07-form</title>
+<link rel="stylesheet" href="00-purchase.css"/>
+</head>
+<body>
+<div id="root">
+<form name="product">
+<fieldset name="code"><label>PLU code</label><input type="text" name="code"/><button type="submit">Enter</button></fieldset>
+<fieldset name="description"><label>Description</label><span></span></fieldset>
+</form>
+<form name="quantity">
+<fieldset><label>Quantity</label><input type="text" name="quantity"/><button type="submit">Enter</button><button type="reset">Cancel</button></fieldset>
+</form>
+<table>
+<thead>
+<tr>
+<th scope="col" class="quantity">Quantity</th>
+<th scope="col" class="description">Description</th>
+<th scope="col" class="price">Price</th>
+<th scope="col" class="cost"></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+<script src="00-products.js"></script>
+<script src="07-form.js"></script>
+</body>
+</html>
