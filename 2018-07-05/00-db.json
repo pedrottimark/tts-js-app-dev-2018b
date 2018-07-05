@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "4134",
+      "description": "apples, Gala, large"
+    },
+    {
+      "id": "4018",
+      "description": "apples, Granny Smith, large"
+    },
+    {
+      "id": "4011",
+      "description": "bananas, yellow"
+    },
+    {
+      "id": "4062",
+      "description": "cucumber, green ridge short"
+    },
+    {
+      "id": "4078",
+      "description": "corn, yellow"
+    },
+    {
+      "id": "4403",
+      "description": "peaches, yellow large east"
+    },
+    {
+      "id": "4247",
+      "description": "strawberry, pint"
+    }
+  ],
+  "purchasers": [
+    {
+      "id": "healthyEater",
+      "fullName": "Just eat it :)"
+    }
+  ],
+  "purchases": [
+    {
+      "purchaserId": "healthyEater",
+      "productId": "4011",
+      "quantity": 7,
+      "id": 1
+    }
+  ]
+}
