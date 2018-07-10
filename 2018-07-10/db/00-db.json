@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "4134",
+      "description": "apples, Gala, large"
+    },
+    {
+      "id": "4018",
+      "description": "apples, Granny Smith, large"
+    },
+    {
+      "id": "4011",
+      "description": "bananas, yellow"
+    },
+    {
+      "id": "4062",
+      "description": "cucumber, green ridge short"
+    },
+    {
+      "id": "4078",
+      "description": "corn, yellow"
+    },
+    {
+      "id": "4403",
+      "description": "peaches, yellow large east"
+    },
+    {
+      "id": "4247",
+      "description": "strawberry, pint"
+    }
+  ],
+  "purchasers": [
+    {
+      "id": "delEater",
+      "fullName": "If you can’t eat it, delete it"
+    },
+    {
+      "id": "healthyEater",
+      "fullName": "Just eat it"
+    }
+  ],
+  "purchases": [
+    {
+      "purchaserId": "delEater",
+      "productId": "4134",
+      "quantity": 3,
+      "id": 1
+    },
+    {
+      "purchaserId": "delEater",
+      "productId": "4018",
+      "quantity": 4,
+      "id": 2
+    },
+    {
+      "purchaserId": "delEater",
+      "productId": "4011",
+      "quantity": 11,
+      "id": 3
+    },
+    {
+      "purchaserId": "delEater",
+      "productId": "4062",
+      "quantity": 2,
+      "id": 4
+    },
+    {
+      "purchaserId": "delEater",
+      "productId": "4078",
+      "quantity": 24,
+      "id": 5
+    },
+    {
+      "purchaserId": "delEater",
+      "productId": "4403",
+      "quantity": 13,
+      "id": 6
+    },
+    {
+      "purchaserId": "delEater",
+      "productId": "4247",
+      "quantity": 6,
+      "id": 7
+    },
+    {
+      "purchaserId": "healthyEater",
+      "productId": "4134",
+      "quantity": 2,
+      "id": 8
+    },
+    {
+      "purchaserId": "healthyEater",
+      "productId": "4011",
+      "quantity": 11,
+      "id": 9
+    },
+    {
+      "purchaserId": "healthyEater",
+      "productId": "4062",
+      "quantity": 3,
+      "id": 10
+    }
+  ]
+}

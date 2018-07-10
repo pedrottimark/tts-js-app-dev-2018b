@@ -1,0 +1,183 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", "Verdana", sans-serif;
+  line-height: 1.5rem;
+  background-image: url("Emoji_u1f957.svg");
+  background-repeat: no-repeat;
+  background-position: right 1rem bottom 1rem;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: hsl(75, 100%, 90%);
+}
+
+h1 {
+  font-size: 1em;
+}
+
+fieldset {
+  margin-top: 1rem;
+}
+
+header fieldset {
+  margin-top: 0;
+}
+
+form[name="logOn"],
+form[name="signUp"],
+table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+label {
+  display: inline-block;
+  min-width: 6rem;
+  margin-left: 1rem;
+  text-align: right;
+}
+
+input, button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+input, label + span {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+input {
+  width: 4rem;
+}
+
+button {
+  min-width: 6rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+form[name="logOn"] label,
+form[name="signUp"] label,
+form[name="fullName"] label {
+  min-width: 12rem;
+}
+
+form[name="logOn"] input,
+form[name="signUp"] input,
+form[name="fullName"] input {
+  min-width: 12rem;
+}
+
+p {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+form[name="product"] {
+  margin-right: 7rem;
+}
+
+h1,
+form[name="logOff"] span,
+form[name="logOn"] label {
+  color: hsl(75, 80%, 40%);
+}
+
+form[name="signUp"] label,
+form[name="fullName"] label {
+  color: hsl(180, 80%, 40%);
+}
+
+form[name="logOn"] button[type="submit"],
+form[name="product"] button[type="submit"],
+form[name="quantity"] button[type="submit"],
+tr:hover {
+  background-color: hsl(75, 100%, 90%);
+}
+
+form[name="signUp"] button[type="submit"],
+form[name="fullName"] button[type="submit"] {
+  background-color: hsl(180, 100%, 90%);
+}
+
+form[name="logOff"] button {
+  background-color: hsl(60, 100%, 90%);
+}
+
+form[name="fullName"] button[type="reset"],
+form[name="quantity"] button[type="reset"] {
+  background-color: hsl(30, 100%, 90%);
+}
+
+form[name="logOn"] button[type="submit"]:disabled,
+form[name="signUp"] button[type="submit"]:disabled,
+form[name="fullName"] button[type="submit"]:disabled,
+form[name="fullName"] button[type="reset"]:disabled,
+form[name="product"] button[type="submit"]:disabled,
+form[name="quantity"] button[type="submit"]:disabled,
+form[name="quantity"] button[type="reset"]:disabled,
+table .delete button:disabled {
+  background-color: transparent;
+}
+
+table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: normal;
+  color: hsl(0, 0%, 50%);
+  border-color: hsl(0, 0%, 50%);
+  border-width: 1px;
+  border-bottom-style: solid;
+}
+
+table .quantity {
+  min-width: 6rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+table .description {
+  text-align: left;
+  min-width: 16rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+table .delete button {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: hsl(15, 100%, 60%); /* red-ish */
+  background-color: hsl(15, 100%, 95%); /* light red-ish */
+}
