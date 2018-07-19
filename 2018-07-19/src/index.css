@@ -1,0 +1,103 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", "Verdana", sans-serif;
+  line-height: 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h1 {
+  white-space: nowrap;
+  margin-left: 0.75rem;
+  font-size: 1em;
+  color: #008000;
+}
+
+label {
+  display: inline-block;
+}
+
+input, button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+input {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+button + span {
+  margin-left: 1rem;
+}
+
+button + p {
+  text-align: right;
+}
+
+button + span,
+button + p {
+  color: hsl(45, 100%, 50%); /* orange-ish */
+}
+
+button {
+  min-width: 5rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+form[name="logOn"] button:not(:disabled) {
+  background-color: hsl(120, 100%, 90%);
+}
+
+div.logOff button:not(:disabled) {
+  background-color: hsl(60, 100%, 90%);
+}
+
+form[name="newItem"] button[type="submit"]:not(:disabled) {
+  background-color: hsl(120, 100%, 90%);
+}
+
+table {
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+td {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+td:first-child {
+  width: 1rem;
+  text-align: center;
+}
+
+tr.completed p {
+  color: #cccccc;
+}
+
+td button {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  background-color: hsl(15, 100%, 95%); /* light red-ish */
+}
