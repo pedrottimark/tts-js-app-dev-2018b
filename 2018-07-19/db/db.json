@@ -1,0 +1,88 @@
+{
+  "doers": [
+    {
+      "id": "addoer",
+      "name": "A. Doer"
+    },
+    {
+      "id": "lesson12",
+      "name": "React, part 1"
+    },
+    {
+      "id": "lesson14",
+      "name": "React, part 2"
+    },
+    {
+      "id": "pedrottimark",
+      "name": "Mark Pedrotti"
+    }
+  ],
+  "items": [
+    {
+      "doerId": "lesson12",
+      "completed": true,
+      "text": "Describe structure and behavior as functions: given state, return elements.",
+      "id": 1
+    },
+    {
+      "doerId": "lesson12",
+      "completed": false,
+      "text": "Replace template languages with JavaScript for code and JSX for markup.",
+      "id": 2
+    },
+    {
+      "doerId": "lesson12",
+      "completed": false,
+      "text": "Build with components as if they are application-specific HTML elements.",
+      "id": 3
+    },
+    {
+      "doerId": "lesson12",
+      "completed": false,
+      "text": "Pass data down the “render tree” via props of descendant components.",
+      "id": 4
+    },
+    {
+      "doerId": "lesson14",
+      "completed": false,
+      "text": "Bind event handlers in class and function components.",
+      "id": 5
+    },
+    {
+      "doerId": "lesson14",
+      "completed": false,
+      "text": "Write callback functions to update the state of ancestor components.",
+      "id": 6
+    },
+    {
+      "doerId": "lesson14",
+      "completed": false,
+      "text": "Control the state of form components.",
+      "id": 7
+    },
+    {
+      "doerId": "lesson14",
+      "completed": true,
+      "text": "Compose components to reuse code and separate concerns.",
+      "id": 8
+    },
+    {
+      "doerId": "pedrottimark",
+      "completed": true,
+      "text": "Done that",
+      "id": 9
+    },
+    {
+      "doerId": "pedrottimark",
+      "completed": false,
+      "text": "Do this",
+      "id": 10
+    },
+    {
+      "doerId": "pedrottimark",
+      "completed": false,
+      "text": "To do or not to do",
+      "id": 11
+    }
+  ]
+}
