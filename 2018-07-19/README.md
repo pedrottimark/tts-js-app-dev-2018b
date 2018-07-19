@@ -1,4 +1,4 @@
-# Lesson 16: React, part 2
+# React, part 2
 
 Before we learn and practice more about React, let’s remember the big picture.
 
