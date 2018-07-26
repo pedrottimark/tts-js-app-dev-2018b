@@ -260,7 +260,7 @@ Will 3 volunteers each explain one of the following:
 
 1. Open the `Main.js` file in your code editor
 2. Find the `</Switch>` tag in the `render` method near the end of the file
-3. In the address bar of the `Healthy Eater` browser tab, replace edit `localhost:3000/unexpected` in address bar of browser tab and will a volunteer say what the `Switch` element did
+3. In the address bar of the `Healthy Eater` browser tab, edit to change route `localhost:3000/unexpected` in address bar of browser tab and will a volunteer say what the `Switch` element did
 4. In a new line above the `</Switch>` tag, paste `<Route component={Main404}/>` and then save your change
 5. Open the `Main404.js` and `404.svg` files in your code editor, and will another volunteer say what the `Switch` statement did
 6. At the left of the address bar, click the back button to go back to the previous category page
