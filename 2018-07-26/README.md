@@ -17,7 +17,7 @@ In a Terminal window:
 
 2. Change to a directory which will be the **parent** of a new application directory
 
-3. Create the new application directory: `create-react-app healthy-eating``
+3. Create the new application directory: `create-react-app healthy-eating`
 
 4. Change to the **child** directory: `cd healthy-eating`
 
