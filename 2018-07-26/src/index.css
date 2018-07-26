@@ -1,0 +1,284 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333333;
+  font-family: "Verdana", "Helvetica", sans-serif;
+  line-height: 1.5rem;
+}
+
+header {
+  position: fixed; /* don’t move if people scroll down in list of foods */
+  z-index: 1; /* overlap category section, which is also fixed */
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.5rem;
+  padding-top: 0.75rem;
+  border-bottom-style: solid;
+}
+
+header,
+nav a {
+  border-color: #808080;
+  border-width: 1px;
+}
+
+h1,
+nav {
+  display: inline-block; /* side by side in header */
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h1,
+nav a {
+  height: 1.75rem;
+  line-height: 1.75rem; /* increase because links as tabs have border top and bottom */
+}
+
+h1, /* align with heading column of table */
+th[scope="row"] {
+  box-sizing: border-box;
+  width: 12rem;
+  padding-right: 0.75rem;
+  text-align: right;
+}
+
+section {
+  box-sizing: border-box;
+  width: 60rem; /* width of table: 12rem + (6 * 8rem) */
+  padding-top: 2.5rem; /* height of heading, because it is fixed */
+}
+
+main.category section {
+  position: fixed; /* don’t move if people scroll down in list of foods */
+  height: 100%;
+}
+
+table.choices td {
+  width: 48rem; /* align with links as tabs */
+}
+
+main.category li {
+  box-sizing: border-box;
+  width: 12rem; /* 4 portions per table row */
+}
+
+ul.portions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: inherit; /* because fluids are blue */
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a.active {
+  cursor: default;
+}
+
+nav a {
+  display: inline-block;
+  box-sizing: border-box; /* so height and width include border */
+  width: 8rem;
+  color: inherit;
+  text-align: center;
+  border-style: solid;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  margin-bottom: -1px;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom-color: transparent;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+th[scope="row"] {
+  font-weight: normal;
+}
+
+ul.foods {
+  margin-left: 60rem; /* width of fixed section */
+  padding-top: 2.5rem; /* height of fixed header */
+}
+
+aside {
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+
+main.category aside {
+  position: relative;
+}
+
+main.category aside a:first-child {
+  position: absolute;
+  right: 48rem; /* align external category link with heading column of table */
+  padding-right: 0.75rem;
+}
+
+.limit,
+.avoid {
+  font-style: italic;
+}
+
+.avoid {
+  text-decoration: line-through;
+}
+
+ul.portions,
+ul.foods {
+  list-style: none;
+}
+
+ul.portions span,
+ul.foods span {
+  display: inline-block; /* so hover background-color has line-height */
+}
+
+ul.foods span {
+  padding-left: 1.5rem; /* for hover background-image */
+  padding-right: 0.25rem;
+}
+
+ul.foods span:hover {
+  background-image: url("food.svg");
+  background-repeat: no-repeat;
+}
+
+aside p {
+  padding-right: 0.25rem;
+}
+
+aside,
+main.home img,
+main.unexpected img {
+  padding-left: 12rem; /* align with links as tabs in header and data column of table */
+}
+
+main.home img,
+main.unexpected img {
+  width: 48rem; /* same as width of links as tabs in header and data column of table */
+}
+
+body,
+header {
+  background-color: #CCCCCC;
+}
+
+main.category ul.foods span,
+main.category ul.portions span {
+  cursor: default; /* instead of I-beam */
+}
+
+main.category ul.foods span:hover,
+main.category tr:first-child ul.portions span:hover {
+  cursor: pointer;
+}
+
+main.category ul.foods span:hover {
+  color: #FFFFFF; /* see background-color below */
+}
+
+main.category tr:first-child ul.portions span:hover {
+  background-image: url("portion.svg");
+  background-repeat: no-repeat;
+}
+
+.vegetables,
+.vegetables section {
+  background-color: hsl(128, 60%, 85%);
+}
+
+.vegetables tr:nth-child(even) td {
+  background-color: hsl(128, 60%, 90%); /* stripes instead of borders */
+}
+
+.vegetables ul.foods span:hover {
+  background-color: hsl(128, 48%, 48%); /* #40b44f green */
+}
+
+.fruits,
+.fruits section {
+  background-color: hsl(345, 60%, 85%);
+}
+
+.fruits tr:nth-child(even) td {
+  background-color: hsl(345, 60%, 90%);
+}
+
+.fruits ul.foods span:hover {
+  background-color: hsl(345, 84%, 38%); /* #b3103a red */
+}
+
+.grains,
+.grains section {
+  background-color: hsl(29, 40%, 85%);
+}
+
+.grains tr:nth-child(even) td {
+  background-color: hsl(29, 40%, 90%);
+}
+
+.grains ul.foods span:hover {
+  background-color: hsl(29, 27%, 52%); /* #a58363 brown */
+}
+
+.protein,
+.protein section {
+  background-color: hsl(26, 80%, 85%);
+}
+
+.protein tr:nth-child(even) td {
+  background-color: hsl(26, 80%, 90%);
+}
+
+.protein ul.foods span:hover {
+  background-color: hsl(26, 79%, 54%); /* #e67d2d orange */
+}
+
+.oils,
+.oils section {
+  background-color: hsl(42, 80%, 85%);
+}
+
+.oils tr:nth-child(even) td {
+  background-color: hsl(42, 80%, 90%);
+}
+
+.oils ul.foods span:hover {
+  background-color: hsl(42, 99%, 61%); /* #fec43b yellow */
+}
+
+.fluids,
+.fluids section {
+  background-color: hsl(205, 60%, 85%);
+}
+
+.fluids tr:nth-child(even) td {
+  background-color: hsl(205, 60%, 90%);
+}
+
+.fluids ul.foods span:hover {
+  background-color: hsl(205, 58%, 54%); /* #4695ce blue */
+}

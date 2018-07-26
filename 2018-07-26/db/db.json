@@ -1,0 +1,1168 @@
+{
+  "foods": [
+    {
+      "id": "asparagus",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "beans",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "beet",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "broccoli",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "Brussels_sprouts",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "cabbage",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "carrot",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "cauliflower",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "cucumber",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "eggplant",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "garlic",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "green_beans",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "kale",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "lettuce",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "onion",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "peas",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "pepper",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "potato",
+      "category": "vegetables",
+      "recommendation": -1
+    },
+    {
+      "id": "radish",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "romaine",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "spinach",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "squash",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "sweet_potato",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "tomato",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "turnip",
+      "category": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "apple",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "apricot",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "avocado",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "banana",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "berries",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "cherry",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "date",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "fig",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "grape",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "grapefruit",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "kiwi",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "lemon",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "lime",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "mango",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "melons",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "orange",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "papaya",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "peach",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pear",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pineapple",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "plum",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pomegranate",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pumpkin",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "raisin",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "rhubarb",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "tangerine",
+      "category": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "barley",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "bran",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "oats",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "quinoa",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "brown_rice",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "wild_rice",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "white_rice",
+      "category": "grains",
+      "recommendation": 0
+    },
+    {
+      "id": "rye",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "unrefined_flour",
+      "category": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "refined_flour",
+      "category": "grains",
+      "recommendation": 0
+    },
+    {
+      "id": "nuts",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "seeds",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "beans",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "chickpea",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "lentils",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "soybean/tofu",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "fish",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "poultry",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "egg",
+      "category": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "beef",
+      "category": "protein",
+      "recommendation": 0
+    },
+    {
+      "id": "pork",
+      "category": "protein",
+      "recommendation": 0
+    },
+    {
+      "id": "processed_meats",
+      "category": "protein",
+      "recommendation": -1
+    },
+    {
+      "id": "olive_oil",
+      "category": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "canola_oil",
+      "category": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "sesame_oil",
+      "category": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "coconut_oil",
+      "category": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "margarine",
+      "category": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "butter",
+      "category": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "cheese",
+      "category": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "cottage_cheese",
+      "category": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "cream_cheese",
+      "category": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "ice_cream",
+      "category": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "fried_foods",
+      "category": "oils",
+      "recommendation": -1
+    },
+    {
+      "id": "water",
+      "category": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "coffee",
+      "category": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "tea",
+      "category": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "milk",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "fruit_juice",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "alcohol",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "“diet”_drinks",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "sugary_drinks",
+      "category": "fluids",
+      "recommendation": -1
+    }
+  ],
+  "portions": [
+    {
+      "foodId": "melons",
+      "index": 7,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "foodId": "bran",
+      "index": 7,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "foodId": "butter",
+      "index": 7,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "foodId": "coffee",
+      "index": 7,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "foodId": "water",
+      "index": 7,
+      "quantity": 5,
+      "id": 5
+    },
+    {
+      "foodId": "tea",
+      "index": 7,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "foodId": "soybean/tofu",
+      "index": 7,
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "foodId": "garlic",
+      "index": 7,
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "foodId": "onion",
+      "index": 7,
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "foodId": "pepper",
+      "index": 7,
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "foodId": "milk",
+      "index": 7,
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "foodId": "olive_oil",
+      "index": 7,
+      "quantity": 1,
+      "id": 12
+    },
+    {
+      "foodId": "fish",
+      "index": 7,
+      "quantity": 1,
+      "id": 13
+    },
+    {
+      "foodId": "peas",
+      "index": 7,
+      "quantity": 1,
+      "id": 14
+    },
+    {
+      "foodId": "banana",
+      "index": 6,
+      "quantity": 1,
+      "id": 15
+    },
+    {
+      "foodId": "quinoa",
+      "index": 6,
+      "quantity": 1,
+      "id": 16
+    },
+    {
+      "foodId": "coffee",
+      "index": 6,
+      "quantity": 1,
+      "id": 17
+    },
+    {
+      "foodId": "water",
+      "index": 6,
+      "quantity": 5,
+      "id": 18
+    },
+    {
+      "foodId": "sugary_drinks",
+      "index": 6,
+      "quantity": 1,
+      "id": 19
+    },
+    {
+      "foodId": "cheese",
+      "index": 6,
+      "quantity": 1,
+      "id": 20
+    },
+    {
+      "foodId": "beef",
+      "index": 6,
+      "quantity": 1,
+      "id": 21
+    },
+    {
+      "foodId": "fried_foods",
+      "index": 6,
+      "quantity": 1,
+      "id": 22
+    },
+    {
+      "foodId": "refined_flour",
+      "index": 6,
+      "quantity": 1,
+      "id": 23
+    },
+    {
+      "foodId": "tomato",
+      "index": 6,
+      "quantity": 1,
+      "id": 24
+    },
+    {
+      "foodId": "lettuce",
+      "index": 6,
+      "quantity": 1,
+      "id": 25
+    },
+    {
+      "foodId": "onion",
+      "index": 6,
+      "quantity": 2,
+      "id": 26
+    },
+    {
+      "foodId": "carrot",
+      "index": 6,
+      "quantity": 1,
+      "id": 27
+    },
+    {
+      "foodId": "pepper",
+      "index": 6,
+      "quantity": 1,
+      "id": 28
+    },
+    {
+      "foodId": "broccoli",
+      "index": 6,
+      "quantity": 1,
+      "id": 29
+    },
+    {
+      "foodId": "kiwi",
+      "index": 6,
+      "quantity": 1,
+      "id": 30
+    },
+    {
+      "foodId": "brown_rice",
+      "index": 6,
+      "quantity": 1,
+      "id": 31
+    },
+    {
+      "foodId": "poultry",
+      "index": 6,
+      "quantity": 1,
+      "id": 32
+    },
+    {
+      "foodId": "sesame_oil",
+      "index": 6,
+      "quantity": 1,
+      "id": 33
+    },
+    {
+      "foodId": "tea",
+      "index": 6,
+      "quantity": 1,
+      "id": 34
+    },
+    {
+      "foodId": "beans",
+      "index": 5,
+      "quantity": 1,
+      "id": 35
+    },
+    {
+      "foodId": "orange",
+      "index": 5,
+      "quantity": 1,
+      "id": 36
+    },
+    {
+      "foodId": "rye",
+      "index": 5,
+      "quantity": 1,
+      "id": 37
+    },
+    {
+      "foodId": "processed_meats",
+      "index": 5,
+      "quantity": 1,
+      "id": 38
+    },
+    {
+      "foodId": "butter",
+      "index": 5,
+      "quantity": 1,
+      "id": 39
+    },
+    {
+      "foodId": "coffee",
+      "index": 5,
+      "quantity": 1,
+      "id": 40
+    },
+    {
+      "foodId": "water",
+      "index": 5,
+      "quantity": 6,
+      "id": 41
+    },
+    {
+      "foodId": "cucumber",
+      "index": 5,
+      "quantity": 1,
+      "id": 42
+    },
+    {
+      "foodId": "onion",
+      "index": 5,
+      "quantity": 1,
+      "id": 43
+    },
+    {
+      "foodId": "radish",
+      "index": 5,
+      "quantity": 1,
+      "id": 44
+    },
+    {
+      "foodId": "pomegranate",
+      "index": 5,
+      "quantity": 1,
+      "id": 45
+    },
+    {
+      "foodId": "unrefined_flour",
+      "index": 5,
+      "quantity": 1,
+      "id": 46
+    },
+    {
+      "foodId": "olive_oil",
+      "index": 5,
+      "quantity": 1,
+      "id": 47
+    },
+    {
+      "foodId": "milk",
+      "index": 5,
+      "quantity": 1,
+      "id": 48
+    },
+    {
+      "foodId": "Brussels_sprouts",
+      "index": 5,
+      "quantity": 1,
+      "id": 49
+    },
+    {
+      "foodId": "garlic",
+      "index": 5,
+      "quantity": 1,
+      "id": 50
+    },
+    {
+      "foodId": "plum",
+      "index": 5,
+      "quantity": 1,
+      "id": 51
+    },
+    {
+      "foodId": "barley",
+      "index": 5,
+      "quantity": 1,
+      "id": 52
+    },
+    {
+      "foodId": "poultry",
+      "index": 5,
+      "quantity": 1,
+      "id": 53
+    },
+    {
+      "foodId": "berries",
+      "index": 4,
+      "quantity": 1,
+      "id": 54
+    },
+    {
+      "foodId": "grapefruit",
+      "index": 4,
+      "quantity": 1,
+      "id": 55
+    },
+    {
+      "foodId": "raisin",
+      "index": 4,
+      "quantity": 1,
+      "id": 56
+    },
+    {
+      "foodId": "oats",
+      "index": 4,
+      "quantity": 1,
+      "id": 57
+    },
+    {
+      "foodId": "coffee",
+      "index": 4,
+      "quantity": 1,
+      "id": 58
+    },
+    {
+      "foodId": "fruit_juice",
+      "index": 4,
+      "quantity": 1,
+      "id": 59
+    },
+    {
+      "foodId": "water",
+      "index": 4,
+      "quantity": 4,
+      "id": 60
+    },
+    {
+      "foodId": "romaine",
+      "index": 4,
+      "quantity": 1,
+      "id": 61
+    },
+    {
+      "foodId": "sweet_potato",
+      "index": 4,
+      "quantity": 1,
+      "id": 62
+    },
+    {
+      "foodId": "fish",
+      "index": 4,
+      "quantity": 1,
+      "id": 63
+    },
+    {
+      "foodId": "olive_oil",
+      "index": 4,
+      "quantity": 1,
+      "id": 64
+    },
+    {
+      "foodId": "beet",
+      "index": 4,
+      "quantity": 1,
+      "id": 65
+    },
+    {
+      "foodId": "mango",
+      "index": 4,
+      "quantity": 1,
+      "id": 66
+    },
+    {
+      "foodId": "bran",
+      "index": 4,
+      "quantity": 1,
+      "id": 67
+    },
+    {
+      "foodId": "tea",
+      "index": 4,
+      "quantity": 1,
+      "id": 68
+    },
+    {
+      "foodId": "banana",
+      "index": 3,
+      "quantity": 1,
+      "id": 69
+    },
+    {
+      "foodId": "rye",
+      "index": 3,
+      "quantity": 1,
+      "id": 70
+    },
+    {
+      "foodId": "egg",
+      "index": 3,
+      "quantity": 1,
+      "id": 71
+    },
+    {
+      "foodId": "butter",
+      "index": 3,
+      "quantity": 1,
+      "id": 72
+    },
+    {
+      "foodId": "coffee",
+      "index": 3,
+      "quantity": 2,
+      "id": 73
+    },
+    {
+      "foodId": "water",
+      "index": 3,
+      "quantity": 3,
+      "id": 74
+    },
+    {
+      "foodId": "“diet”_drinks",
+      "index": 3,
+      "quantity": 1,
+      "id": 75
+    },
+    {
+      "foodId": "cabbage",
+      "index": 3,
+      "quantity": 1,
+      "id": 76
+    },
+    {
+      "foodId": "onion",
+      "index": 3,
+      "quantity": 1,
+      "id": 77
+    },
+    {
+      "foodId": "garlic",
+      "index": 3,
+      "quantity": 1,
+      "id": 78
+    },
+    {
+      "foodId": "pork",
+      "index": 3,
+      "quantity": 1,
+      "id": 79
+    },
+    {
+      "foodId": "chickpea",
+      "index": 3,
+      "quantity": 1,
+      "id": 80
+    },
+    {
+      "foodId": "unrefined_flour",
+      "index": 3,
+      "quantity": 1,
+      "id": 81
+    },
+    {
+      "foodId": "avocado",
+      "index": 3,
+      "quantity": 1,
+      "id": 82
+    },
+    {
+      "foodId": "cauliflower",
+      "index": 3,
+      "quantity": 1,
+      "id": 83
+    },
+    {
+      "foodId": "broccoli",
+      "index": 3,
+      "quantity": 1,
+      "id": 84
+    },
+    {
+      "foodId": "berries",
+      "index": 2,
+      "quantity": 1,
+      "id": 85
+    },
+    {
+      "foodId": "pomegranate",
+      "index": 2,
+      "quantity": 1,
+      "id": 86
+    },
+    {
+      "foodId": "bran",
+      "index": 2,
+      "quantity": 1,
+      "id": 87
+    },
+    {
+      "foodId": "processed_meats",
+      "index": 2,
+      "quantity": 1,
+      "id": 88
+    },
+    {
+      "foodId": "butter",
+      "index": 2,
+      "quantity": 1,
+      "id": 89
+    },
+    {
+      "foodId": "cottage_cheese",
+      "index": 2,
+      "quantity": 1,
+      "id": 90
+    },
+    {
+      "foodId": "coffee",
+      "index": 2,
+      "quantity": 1,
+      "id": 91
+    },
+    {
+      "foodId": "water",
+      "index": 2,
+      "quantity": 4,
+      "id": 92
+    },
+    {
+      "foodId": "sugary_drinks",
+      "index": 2,
+      "quantity": 1,
+      "id": 93
+    },
+    {
+      "foodId": "cucumber",
+      "index": 2,
+      "quantity": 1,
+      "id": 94
+    },
+    {
+      "foodId": "onion",
+      "index": 2,
+      "quantity": 1,
+      "id": 95
+    },
+    {
+      "foodId": "radish",
+      "index": 2,
+      "quantity": 1,
+      "id": 96
+    },
+    {
+      "foodId": "barley",
+      "index": 2,
+      "quantity": 1,
+      "id": 97
+    },
+    {
+      "foodId": "beef",
+      "index": 2,
+      "quantity": 1,
+      "id": 98
+    },
+    {
+      "foodId": "lentils",
+      "index": 2,
+      "quantity": 1,
+      "id": 99
+    },
+    {
+      "foodId": "ice_cream",
+      "index": 2,
+      "quantity": 1,
+      "id": 100
+    },
+    {
+      "foodId": "cherry",
+      "index": 2,
+      "quantity": 1,
+      "id": 101
+    },
+    {
+      "foodId": "asparagus",
+      "index": 2,
+      "quantity": 1,
+      "id": 102
+    },
+    {
+      "foodId": "tangerine",
+      "index": 1,
+      "quantity": 1,
+      "id": 103
+    },
+    {
+      "foodId": "oats",
+      "index": 1,
+      "quantity": 1,
+      "id": 104
+    },
+    {
+      "foodId": "raisin",
+      "index": 1,
+      "quantity": 1,
+      "id": 105
+    },
+    {
+      "foodId": "apricot",
+      "index": 1,
+      "quantity": 1,
+      "id": 106
+    },
+    {
+      "foodId": "brown_rice",
+      "index": 1,
+      "quantity": 1,
+      "id": 107
+    },
+    {
+      "foodId": "poultry",
+      "index": 1,
+      "quantity": 1,
+      "id": 108
+    },
+    {
+      "foodId": "canola_oil",
+      "index": 1,
+      "quantity": 1,
+      "id": 109
+    },
+    {
+      "foodId": "sesame_oil",
+      "index": 1,
+      "quantity": 1,
+      "id": 110
+    },
+    {
+      "foodId": "coffee",
+      "index": 1,
+      "quantity": 1,
+      "id": 111
+    },
+    {
+      "foodId": "water",
+      "index": 1,
+      "quantity": 5,
+      "id": 112
+    },
+    {
+      "foodId": "cheese",
+      "index": 1,
+      "quantity": 1,
+      "id": 113
+    },
+    {
+      "foodId": "refined_flour",
+      "index": 1,
+      "quantity": 1,
+      "id": 114
+    },
+    {
+      "foodId": "beet",
+      "index": 1,
+      "quantity": 1,
+      "id": 115
+    },
+    {
+      "foodId": "eggplant",
+      "index": 1,
+      "quantity": 1,
+      "id": 116
+    },
+    {
+      "foodId": "kale",
+      "index": 1,
+      "quantity": 1,
+      "id": 117
+    }
+  ]
+}
