@@ -1,0 +1,61 @@
+{
+  "foods": [
+    {
+      "id": "water",
+      "category": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "coffee",
+      "category": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "tea",
+      "category": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "milk",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "fruit_juice",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "alcohol",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "“diet”_drinks",
+      "category": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "sugary_drinks",
+      "category": "fluids",
+      "recommendation": -1
+    }
+  ],
+  "portions": [
+    {
+      "foodId": "coffee",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "foodId": "water",
+      "quantity": 6,
+      "id": 2
+    },
+    {
+      "foodId": "milk",
+      "quantity": 1,
+      "id": 3
+    }
+  ]
+}
