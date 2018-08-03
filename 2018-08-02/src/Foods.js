@@ -3,9 +3,9 @@ import React from 'react';
 
 import Food from './Food';
 
-const Foods = ({addFood, foods, isFetchingIds, isRenderingFormId}) => (
+const Foods = ({addFood, foodMap, isFetchingIds, isRenderingFormId}) => (
   <ul className="foods">
-    {foods.map(food => (
+    {Array.from(foodMap.values()).map(food => (
       <Food
         key={food.id}
         food={food}

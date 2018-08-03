@@ -23,7 +23,7 @@ const Aside = () => (
       </p>
     </div>
     <img
-      alt="Kid’s Healthy Eating Plate"
+      alt="Water Glass from Kid’s Healthy Eating Plate"
       src="https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2015/12/Kids_Water_longer-300x313.jpg"
     />
   </aside>

@@ -77,7 +77,6 @@ li {
   background-color: #cee8f5;
 }
 
-ul.foods span,
 ul.portions li {
   width: 12rem; /* 4 portions per table row */
 }
@@ -86,29 +85,29 @@ ul.portions span:first-child {
   padding-left: 0.5rem;
 }
 
-ul.foods span {
-  padding-left: 1.5rem;
+ul.foods button {
+  outline: none;
+  background-color: inherit;
 }
 
-ul.foods li {
+ul.foods button {
   width: 13.5rem;
+  padding-left: 1.5rem;
+  text-align: left;
 }
 
-ul.foods li:not(.disabled) span:hover {
+ul.foods li:not(.disabled) button:hover {
   color: #ffffff;
   background-color: #4695ce;
+  background-image: url("plus.svg");
+  background-repeat: no-repeat;
 }
 
 ul.foods {
   border-color: #4695ce;
 }
 
-ul.foods li:not(.disabled) span:hover {
-  background-image: url("plus.svg");
-  background-repeat: no-repeat;
-}
-
-ul.foods li.disabled span,
+ul.foods li.disabled button,
 ul.portions li.disabled span {
   color: #808080;
 }
@@ -129,7 +128,6 @@ ul.portions span + span {
   padding-right: 0.25rem;
 }
 
-ul.foods span,
 ul.portions span {
   display: inline-block; /* so hover background-color has line-height */
   cursor: default;
@@ -172,13 +170,17 @@ form[name="portion"] button:not(:disabled):hover {
 
 form[name="portion"] input,
 form[name="portion"] button {
-  box-sizing: border-box;
   width: 100%;
-  line-height: inherit;
-  font-family: inherit;
-  font-size: inherit;
 }
 
 form[name="portion"] button {
   text-align: left;
+}
+
+input,
+button {
+  box-sizing: border-box;
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }

@@ -156,13 +156,11 @@ The [redux-thunk](https://www.npmjs.com/package/redux-thunk) package:
 
 2. In the `src/App.js` file, see how to **connect** a component to the Redux store:
 
-    * `mapStateToProps` is a function which given properties from the Redux store, returns **props** for the component, which uses them in its `render` method (in this example, keys and values are the same in store and component)
+    * `mapStateToProps` is a function which given properties from the Redux store, returns **props** for the component, which uses them in its `render` method (in this example, key and value is the same in store and component)
 
     * `mapDispatchToProps` is an object whose properties are action creator functions which are bound to the `dispatch` method of the Redux store and included as **props** of the component, which calls it in its `componentDidMount` method
 
     * `export default connect(mapStateToProps, mapDispatchToProps)(App);` exports the connected component
-
-    * Will a volunteer explain conditional and expression in `render` method: `{!isGetting && (…)}`
 
 3. In the `src/actions.js` file, see the `getFoodsPortions` function which calls `dispatch`:
 
@@ -170,7 +168,7 @@ The [redux-thunk](https://www.npmjs.com/package/redux-thunk) package:
     * with `{type: 'FETCH_GET_SUCCESS', …}` action if promise is fulfilled
     * with `{type: 'FETCH_GET_FAILURE', …}` action if promise is rejected
 
-4. In the `src/reducers/isGetting.js` file, see property of state while promise is pending (determines whether `section` is displayed in `render` method of connected `App` component)
+4. In the `src/reducers/foodMap.js` file, see conversion from array to ECMAScript 2015 Map
 
 5. In the `src/reducers/message.js` file, see property of state when promise is rejected (displayed in `render` method of connected `App` component)
 
@@ -181,7 +179,7 @@ The [redux-thunk](https://www.npmjs.com/package/redux-thunk) package:
 1. Apply the example of `src/App.js` file in the `src/Foods.js` file to connect component to Redux store:
 
     * delete last line, and then `/*` and `*/` comments
-    * map state to props: `foods`, `isFetchingIds`, `isRenderingFormId`
+    * map state to props: `foodMap`, `isFetchingIds`, `isRenderingFormId`
     * map dispatch to props: `addFood`
     * export connected component
 

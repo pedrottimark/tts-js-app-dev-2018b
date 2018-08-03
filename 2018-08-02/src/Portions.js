@@ -3,12 +3,13 @@ import {connect} from 'react-redux';
 
 import Portion from './Portion';
 
-const Portions = ({dispatch, isFetchingIds, isRenderingFormId, portions}) => (
+const Portions = ({dispatch, foodMap, isFetchingIds, isRenderingFormId, portions}) => (
   <ul className="portions">
     {portions.map(portion => (
       <Portion
         key={portion.id}
         dispatch={dispatch}
+        food={foodMap.get(portion.foodId)}
         isFetchingIds={isFetchingIds}
         isRenderingFormId={isRenderingFormId}
         portion={portion}
@@ -18,10 +19,12 @@ const Portions = ({dispatch, isFetchingIds, isRenderingFormId, portions}) => (
 );
 
 const mapStateToProps = ({
+  foodMap,
   isFetchingIds,
   isRenderingFormId,
   portions,
 }) => ({
+  foodMap,
   isFetchingIds,
   isRenderingFormId,
   portions,

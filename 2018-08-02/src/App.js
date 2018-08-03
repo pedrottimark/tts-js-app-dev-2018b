@@ -13,23 +13,21 @@ class App extends Component {
   }
 
   render() {
-    const {isGetting, message} = this.props;
+    const {message} = this.props;
     return (
         <main>
           <Aside/>
-          {!isGetting && (
-            <section>
-              <p>{message}</p>
-              <Portions/>
-              <Foods/>
-            </section>
-          )}
+          <section>
+            <p>{message}</p>
+            <Portions/>
+            <Foods/>
+          </section>
         </main>
     );
   }
 }
 
-const mapStateToProps = ({isGetting, message}) => ({isGetting, message});
+const mapStateToProps = ({message}) => ({message});
 const mapDispatchToProps = {getFoodsPortions};
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

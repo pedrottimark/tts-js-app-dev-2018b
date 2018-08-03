@@ -24,8 +24,8 @@ class Portion extends Component {
   }
 
   render() {
-    const {isFetchingIds, isRenderingFormId, portion} = this.props;
-    const {foodId, quantity, food: {recommendation}} = portion;
+    const {food: {recommendation}, isFetchingIds, isRenderingFormId, portion} = this.props;
+    const {foodId, quantity} = portion;
     const isFetching = isFetchingIds.indexOf(foodId) !== -1;
     const isRenderingForm = isRenderingFormId === foodId;
     return (

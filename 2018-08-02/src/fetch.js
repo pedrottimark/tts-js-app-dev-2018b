@@ -11,7 +11,7 @@ const convertToJSON = response => {
 
 export const fetchGetFoods = category => fetch(`/foods`).then(convertToJSON);
 
-export const fetchGetPortions = category => fetch(`/portions?_expand=food`).then(convertToJSON);
+export const fetchGetPortions = category => fetch(`/portions`).then(convertToJSON);
 
 export const fetchPostPortion = ({foodId, quantity}) => fetch(`/portions`, {
   method: 'POST',

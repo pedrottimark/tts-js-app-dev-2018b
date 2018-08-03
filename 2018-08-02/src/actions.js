@@ -47,8 +47,8 @@ const putPortion = (portion, dispatch) => {
 };
 
 export const addFood = foodId => (dispatch, getState) => {
-  const {foods, portions} = getState();
-  const portionPrev = portions.find(portion => portion.food.id === foodId);
+  const {portions} = getState();
+  const portionPrev = portions.find(portion => portion.foodId === foodId);
   if (portionPrev === undefined) {
     dispatch({
       type: 'FETCH_POST_WAITING',
@@ -58,7 +58,7 @@ export const addFood = foodId => (dispatch, getState) => {
       portion => {
         dispatch({
           type: 'FETCH_POST_SUCCESS',
-          portion: {...portion, food: foods.find(food => food.id === foodId)},
+          portion,
         });
       },
       error => {
