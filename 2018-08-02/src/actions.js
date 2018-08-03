@@ -101,9 +101,9 @@ export const updateQuantity = (portionId, quantity) => (dispatch, getState) => {
   } else {
     const portion = {
       ...portionPrev,
-      quantity: portionPrev.quantity + 1,
+      quantity,
     };
-    putPortion(portion, dispatch);
+    return putPortion(portion, dispatch);
   }
 };
 
